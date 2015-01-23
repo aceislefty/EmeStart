@@ -1,0 +1,68 @@
+﻿<metro:Window x:Class="EmeSta.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:metro="http://schemas.codeplex.com/elysium"
+        Title="StartUp" Height="482" Width="661">
+    <Grid Height="376" Width="618">
+        <Border Background="#FFFCFCD2" BorderBrush="Silver" BorderThickness="0" Name="borderData" Width="281" Margin="315,194,20,20">
+            <Grid>
+                <Label Height="33" Width="115" Margin="27,12,137,115" Content="Data" />
+                <Button Height="45" Width="45" Margin="118,102,114,15" Name="btnDropBoxFolder" Click="btnDropBoxFolder_Click" HorizontalAlignment="Center">
+                    <Image Source="img\folder.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="118,41,114,76" Name="btnDropBox" Click="btnDropBox_Click" HorizontalAlignment="Center">
+                    <Image Source="img\dropbox.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="50,102,182,15" Name="btnPicFolder" Click="btnPicFolder_Click" HorizontalAlignment="Center">
+                    <Image Source="img\camera.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="50,41,182,76" Name="btnSkyDrive" Click="btnSkyDrive_Click" HorizontalAlignment="Center">
+                    <Image Source="img\skydrive.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="185,41,47,76" Name="btnMail" Click="btnMail_Click" HorizontalAlignment="Center">
+                    <Image Source="img\outlook.jpg"></Image>
+                </Button>
+                <Button Height="162" Width="281" Margin="0" Name="btnData" Content="Data" Click="btnData_Click" />
+            </Grid>
+        </Border>
+        <Border Background="#FFFCBDCB" BorderBrush="Silver" BorderThickness="0" Name="borderProgram" Width="281" Margin="20,194,315,20">
+            <Grid>
+                <Label Height="33" Width="115" Margin="28,20,136,108" Content="Program" />
+                <Button Height="45" Width="45" Margin="58,75,174,42" Name="btnOtherProgram" Click="btnOtherProgram_Click" HorizontalAlignment="Center">
+                    <Image Source="img\pgm.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="131,75,101,42" Name="btnBackUp" Click="btnBackUp_Click" HorizontalAlignment="Center">
+                    <Image Source="img\backup.jpg"></Image>
+                </Button>
+                <Button Height="162" Width="281" Margin="0" Content="Program" Name="btnProgram" Click="btnProgram_Click" />
+            </Grid>
+        </Border>
+        <Border Background="#FF3CAD35" BorderBrush="Silver" BorderThickness="0" Name="borderAmeba" Width="281" Margin="315,20,20,194">
+            <Grid>
+                <Label Height="33" Width="115" Margin="27,20,137,108" Content="Ameba" />
+                <Button Height="45" Width="45" Margin="50,72,182,45" Name="btnMow" Click="btnMow_Click" HorizontalAlignment="Center">
+                    <Image Source="img\mow.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="118,72,114,45" Name="btnCha" Click="btnCha_Click" HorizontalAlignment="Center">
+                    <Image Source="img\kash.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="185,72,47,45" Name="btnWebli" Click="btnWebli_Click" HorizontalAlignment="Center">
+                    <Image Source="img\webli.jpg"></Image>
+                </Button>
+                <Button Height="162" Width="281" Margin="0" Name="btnAmeba" Content="Ameba" Click="btnAmeba_Click" />
+            </Grid>
+        </Border>
+        <Border Background="#FFD2FCFC" BorderBrush="Silver" BorderThickness="0" Name="borderPortfolio" Width="281" Margin="20,20,315,194">
+            <Grid>
+                <Label Height="33" Width="115" Margin="28,19,136,109" Content="Portfolio" />
+                <Button Height="45" Width="45" Margin="131,72,101,45" Name="btnEverNote" Click="btnEverNote_Click" HorizontalAlignment="Center">
+                    <Image Source="img\evernote.jpg"></Image>
+                </Button>
+                <Button Height="45" Width="45" Margin="58,72,174,45" Name="btnKoseigaku" Click="btnKoseigaku_Click" HorizontalAlignment="Center">
+                    <Image Source="img\koseigaku.jpg"></Image>
+                </Button>
+                <Button Height="162" Width="281" Margin="0" Name="btnPortfolio" Click="btnPortfolio_Click" Content="Portfolio" />
+            </Grid>
+        </Border>
+    </Grid>
+</metro:Window>
